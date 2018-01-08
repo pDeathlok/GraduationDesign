@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: utility.aux
+The style file: splncs03.bst
+Database file #1: cup.bib
+Repeated entry---line 655 of file cup.bib
+ : @inproceedings{DBLP:conf/kdd/TsengWSY10
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 705 of file cup.bib
+ : @article{DBLP:journals/pvldb/TongCCY12
+ :                                       ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bib1"
+Warning--I didn't find a database entry for "bib2"
+(There were 2 error messages)

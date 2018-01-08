@@ -1,0 +1,2 @@
+项目批准号：61232009；
+项目名称：低功耗安全嵌入式处理器芯片的基础理论与关键技术（The basic theory and key technologies of the low power and secure embedded processor）

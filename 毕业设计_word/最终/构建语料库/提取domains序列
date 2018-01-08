@@ -1,0 +1,56 @@
+import org.apache.spark.sql.hive.HiveContext
+import sqlContext.implicits._
+
+import com.chanct.tldextract.TLDExtract
+
+def extractSecDomain(domain: String) = {
+	var (_, sec, tld) = TLDExtract.split(domain)
+	if(tld.startsWith("InternetDomainName")){
+		tld = tld.substring(24, tld.length-1)
+	}
+	sec.toString+"."+tld.toString
+}
+
+def getDomainsSequence(s: String) = {
+	var arr = s.split(" ")
+	var len = arr.length
+	
+	if (len%2 == 1){
+		""
+	} else{
+		var (a1, a2) = arr.splitAt(len/2)
+		(a2 zip a1).toList.sorted.unzip._2.filter(x => !x.endsWith(".")).mkString(" ")		
+	}
+}
+
+def getDomansNum(s: String) = {
+	s.split(" ").length
+}
+
+val sqlctx = new HiveContext(sc)
+sqlctx.udf.register("getSecDomain", (domain: String) => {extractSecDomain(domain)})
+sqlctx.udf.register("getSecDomainSequence", (domains: String) => {getDomainsSequence(domains)})
+sqlctx.udf.register("getDomainsNum", (domains: String) => {domains.split(" ").length})
+sqlctx.udf.register("filterDomain", (domain: String) => {domain=="localhost" || domain.endsWith("in-addr.arpa") || domain.endsWith(".localdomain") || domain.size < 5 || TLDExtract.split(domain)._3.size==0})
+sqlctx.udf.register("filterNoise", (domain: String) => {
+	val res = domain.toList.map(x => Character.isDigit(x) || Character.isAlphabetic(x) || x=='.').filter(x => x!= true)
+	res.size == 0
+})
+
+sqlctx.sql("use cdns")
+for (t <- List("20171127", "20171128", "20171129")){
+	val sql = "select A.sip, A.domains, getDomainsNum(A.domains) as length from (select sip, getSecDomainSequence(concat_ws(' ', collect_list(getSecDomain(qdomain)), collect_list(time))) as domains from gddx_dnsr2c_new where dt = '" + t + "' and qtype = 'A' and rcode = '3' and hour >= '13' group by sip,hour)A"
+	sqlctx.sql(sql).filter("length > 4").saveAsTable
+}
+#sqlctx.sql("select sip, getSecDomainSequence(concat_ws(' ', collect_list(getSecDomain(qdomain)), collect_list(time))) as domains from gddx_dnsr2c where dt = '20171101' and rrtype = 'A' group by sip,hour").registerTempTable("temp")
+#sqlctx.sql("insert into domains_test select * from temp")
+#sqlctx.sql("insert into domains_test select * from temp")
+sqlctx.sql("create table domains_test as select sip, getSecDomainSequence(concat_ws(' ', collect_list(getSecDomain(qdomain)), collect_list(time))) as domains from gddx_dnsr2c where dt = '20171101' and rrtype = 'A' where rcode = 3 group by sip,hour")
+
+sqlctx.sql("select A.sip, A.domains, getDomainsNum(A.domains) as length from (select sip, getSecDomainSequence(concat_ws(' ', collect_list(getSecDomain(qdomain)), collect_list(time))) as domains from gddx_dnsr2c where dt = '20171101' and qtype = 'A' and rcode = '3' group by sip,hour)A")
+sqlctx.sql("select A.sip, A.domains, getDomainsNum(A.domains) as length from (select sip, getSecDomainSequence(concat_ws(' ', collect_list(getSecDomain(qdomain)), collect_list(time))) as domains from gddx_dnsr2c where dt = '20171101' and qtype = 'A' and rcode = '3' and filterNoise(qdomain) group by sip,hour)A").groupBy("length").count().orderBy("length").show()
+res8.filter("length > 5") 
+
+val conf = new Sparkconf()
+
+select * from cdns.domains_test limit 10

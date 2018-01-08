@@ -1,0 +1,78 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{DBLP:conf/kdd/AggarwalLWW09}
+Aggarwal, C.C., Li, Y., Wang, J., Wang, J.: Frequent pattern mining with
+  uncertain data. In: KDD. pp. 29--38 (2009)
+
+\bibitem{DBLP:conf/vldb/AgrawalS94}
+Agrawal, R., Srikant, R.: Fast algorithms for mining association rules in large
+  databases. In: VLDB. pp. 487--499 (1994)
+
+\bibitem{DBLP:journals/tkde/AhmedTJL09}
+Ahmed, C.F., Tanbeer, S.K., Jeong, B., Lee, Y.: Efficient tree structures for
+  high utility pattern mining in incremental databases. {IEEE} Trans. Knowl.
+  Data Eng.  21(12),  1708--1721 (2009)
+
+\bibitem{DBLP:conf/kdd/BerneckerKRVZ09}
+Bernecker, T., Kriegel, H.P., Renz, M., Verhein, F., Z{\"u}fle, A.:
+  Probabilistic frequent itemset mining in uncertain databases. In: KDD. pp.
+  119--128 (2009)
+
+\bibitem{DBLP:conf/pakdd/ChuiK08}
+Chui, C.K., Kao, B.: A decremental approach for mining frequent itemsets from
+  uncertain data. In: PAKDD. pp. 64--75 (2008)
+
+\bibitem{DBLP:conf/pakdd/ChuiKH07}
+Chui, C.K., Kao, B., Hung, E.: Mining frequent itemsets from uncertain data.
+  In: PAKDD. pp. 47--58 (2007)
+
+\bibitem{DBLP:conf/sigmod/HanPY00}
+Han, J., Pei, J., Yin, Y.: Mining frequent patterns without candidate
+  generation. In: SIGMOD. pp. 1--12 (2000)
+
+\bibitem{DBLP:conf/pakdd/LeungMB08}
+Leung, C.K.S., Mateo, M.A.F., Brajczuk, D.A.: A tree-based approach for
+  frequent pattern mining from uncertain data. In: PAKDD. pp. 653--661 (2008)
+
+\bibitem{DBLP:conf/pakdd/LiuLC05}
+Liu, Y., Liao, W., Choudhary, A.N.: A two-phase algorithm for fast discovery of
+  high utility itemsets. In: Advances in Knowledge Discovery and Data Mining,
+  9th Pacific-Asia Conference, {PAKDD} 2005, Hanoi, Vietnam, May 18-20, 2005,
+  Proceedings. pp. 689--695 (2005)
+
+\bibitem{DBLP:conf/kdd/SunCCC10}
+Sun, L., Cheng, R., Cheung, D.W., Cheng, J.: Mining uncertain data with
+  probabilistic guarantees. In: KDD. pp. 273--282 (2010)
+
+\bibitem{DBLP:journals/pvldb/TongCCY12}
+Tong, Y., Chen, L., Cheng, Y., Yu, P.S.: Mining frequent itemsets over
+  uncertain databases. PVLDB  5(11),  1650--1661 (2012)
+
+\bibitem{DBLP:conf/kdd/TsengWSY10}
+Tseng, V.S., Wu, C.W., Shie, B.E., Yu, P.S.: Up-growth: an efficient algorithm
+  for high utility itemset mining. In: KDD. pp. 253--262 (2010)
+
+\bibitem{DBLP:conf/cikm/WangCLC10}
+Wang, L., Cheng, R., Lee, S.D., Cheung, D.W.L.: Accelerating probabilistic
+  frequent itemset mining: a model-based approach. In: CIKM. pp. 429--438
+  (2010)
+
+\bibitem{DBLP:conf/kdd/WuSTY12}
+Wu, C., Shie, B., Tseng, V.S., Yu, P.S.: Mining top-k high utility itemsets.
+  In: The 18th {ACM} {SIGKDD} International Conference on Knowledge Discovery
+  and Data Mining, {KDD} '12, Beijing, China, August 12-16, 2012. pp. 78--86
+  (2012)
+
+\bibitem{DBLP:conf/sdm/YaoHB04}
+Yao, H., Hamilton, H.J., Butz, C.J.: A foundational approach to mining itemset
+  utilities from databases. In: Proceedings of the Fourth {SIAM} International
+  Conference on Data Mining, Lake Buena Vista, Florida, USA, April 22-24, 2004.
+  pp. 482--486 (2004)
+
+\bibitem{DBLP:journals/tkde/Zaki00}
+Zaki, M.J.: Scalable algorithms for association mining. IEEE Trans. Knowl. Data
+  Eng.  12(3),  372--390 (2000)
+
+\end{thebibliography}

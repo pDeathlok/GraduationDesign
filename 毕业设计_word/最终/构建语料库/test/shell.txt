@@ -1,0 +1,3 @@
+spark-submit --executor-memory 36G --driver-memory 10G --executor-cores 4 --num-executors 5 --conf spark.akka.frameSize=256 --conf spark.network.timeout=1000s --conf spark.yarn.scheduler.heartbeat.interval-ms=5000 --conf spark.akka.timeout=1000s --conf spark.shuffle.consolidateFiles=true --conf spark.reducer.maxSizeInFlight=24m --conf spark.yarn.executor.memoryOverhead=4096 --master yarn --deploy-mode cluster --jars /home/wangwenbo/tldextract_0.1.jar /home/wangwenbo/wangwenbo_2.10-1.0.jar 20171127 NxDomains gddx_dnsr2c_new test1 2>&1 | tee res.txt
+
+spark-submit --master yarn --deploy-mode cluster --jars /home/wangwenbo/tldextract_0.1.jar /home/wangwenbo/getdomainsCorpus_2.10-1.0.jar

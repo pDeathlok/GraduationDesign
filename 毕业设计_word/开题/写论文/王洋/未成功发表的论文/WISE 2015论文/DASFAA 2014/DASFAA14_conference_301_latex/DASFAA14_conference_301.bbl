@@ -1,0 +1,139 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{adar2007managing}
+Adar, E., R{\'e}, C.: Managing uncertainty in social networks. IEEE Data Eng.
+  Bull  30(2),  15--22 (2007)
+
+\bibitem{asthana2004predicting}
+Asthana, S., King, O.D., Gibbons, F.D., Roth, F.P.: Predicting protein complex
+  membership using probabilistic network reliability. Genome Research  14(6),
+  1170--1175 (2004)
+
+\bibitem{bast2006transit}
+Bast, H., Funke, S., Matijevic, D.: Transit¡ªultrafast shortest-path queries
+  with linear-time preprocessing. 9th DIMACS Implementation Challenge [1]
+  (2006)
+
+\bibitem{cheng2012efficient}
+Cheng, J., Ke, Y., Chu, S., Cheng, C.: Efficient processing of distance queries
+  in large graphs: a vertex cover approach. In: SIGMOD. pp. 457--468. ACM
+  (2012)
+
+\bibitem{cohen2003reachability}
+Cohen, E., Halperin, E., Kaplan, H., Zwick, U.: Reachability and distance
+  queries via 2-hop labels. SIAM Journal on Comp.  32(5),  1338--1355 (2003)
+
+\bibitem{fishman1991monte}
+Fishman, G.S.: A monte carlo sampling plan based on product form estimation.
+  In: Proceedings of the 23rd conference on Winter simulation. pp. 1012--1017.
+  IEEE Computer Society (1991)
+
+\bibitem{fu2006heuristic}
+Fu, L., Sun, D., Rilett, L.R.: Heuristic shortest path algorithms for
+  transportation applications: state of the art. Computers \& Operations
+  Research  33(11),  3324--3343 (2006)
+
+\bibitem{gao2011relational}
+Gao, J., Jin, R., Zhou, J., Yu, J.X., Jiang, X., Wang, T.: Relational approach
+  for shortest path discovery over large graphs. PVLDB  5(4),  358--369 (2011)
+
+\bibitem{gubichev2010fast}
+Gubichev, A., Bedathur, S., Seufert, S., Weikum, G.: Fast and accurate
+  estimation of shortest paths in large graphs. In: CIKM. pp. 499--508. ACM
+  (2010)
+
+\bibitem{hua2010probabilistic}
+Hua, M., Pei, J.: Probabilistic path queries in road networks: traffic
+  uncertainty aware path selection. In: EDBT. pp. 347--358. ACM (2010)
+
+\bibitem{jin2011distance}
+Jin, R., Liu, L., Ding, B., Wang, H.: Distance-constraint reachability
+  computation in uncertain graphs. PVLDB  4(9),  551--562 (2011)
+
+\bibitem{jin2012highway}
+Jin, R., Ruan, N., Xiang, Y., Lee, V.: A highway-centric labeling approach for
+  answering distance queries on large sparse graphs. In: SIGMOD. pp. 445--456.
+  ACM (2012)
+
+\bibitem{jing1998hierarchical}
+Jing, N., Huang, Y.W., Rundensteiner, E.A.: Hierarchical encoded path views for
+  path query processing: An optimal model and its performance evaluation. TKDE
+  10(3),  409--432 (1998)
+
+\bibitem{Sampling3rd}
+K.Thompson, S.: Sampling the Third Edition. WILEY SERIES IN PROBABILITY AND
+  STATISTICS, WILEY (2012)
+
+\bibitem{lian2011efficient}
+Lian, X., Chen, L.: Efficient query answering in probabilistic rdf graphs. In:
+  SIGMOD. pp. 157--168. ACM (2011)
+
+\bibitem{loui1983optimal}
+Loui, R.P.: Optimal paths in graphs with stochastic or multidimensional
+  weights. CACM  26(9),  670--676 (1983)
+
+\bibitem{nierman2002protdb}
+Nierman, A., Jagadish, H.: Protdb: Probabilistic data in xml. In: Proceedings
+  of the 28th international conference on Very Large Data Bases. pp. 646--657.
+  VLDB Endowment (2002)
+
+\bibitem{rice2010graph}
+Rice, M., Tsotras, V.J.: Graph indexing of road networks for shortest path
+  queries with label restrictions. PVLDB  4(2),  69--80 (2010)
+
+\bibitem{samet2008scalable}
+Samet, H., Sankaranarayanan, J., Alborzi, H.: Scalable network distance
+  browsing in spatial databases. In: SIGMOD. pp. 43--54. ACM (2008)
+
+\bibitem{sankaranarayanan2009path}
+Sankaranarayanan, J., Samet, H., Alborzi, H.: Path oracles for spatial
+  networks. PVLDB  2(1),  1210--1221 (2009)
+
+\bibitem{tong2012mining}
+Tong, Y., Chen, L., Cheng, Y., Yu, P.S.: Mining frequent itemsets over
+  uncertain databases. PVLDB  5(11),  1650--1661 (2012)
+
+\bibitem{tong2012discovering}
+Tong, Y., Chen, L., Ding, B.: Discovering threshold-based frequent closed
+  itemsets over probabilistic data. In: ICDE. pp. 270--281. IEEE (2012)
+
+\bibitem{valiant1979complexity}
+Valiant, L.G.: The complexity of enumeration and reliability problems. SIAM
+  Journal on Comp.  8(3),  410--421 (1979)
+
+\bibitem{wei2010tedi}
+Wei, F.: Tedi: efficient shortest path query answering on graphs. In:
+  Proceedings of SIGMOD. pp. 99--110. ACM (2010)
+
+\bibitem{wu2012shortest}
+Wu, L., Xiao, X., Deng, D., Cong, G., Zhu, A.D., Zhou, S.: Shortest path and
+  distance queries on road networks: an experimental evaluation. PVLDB  5(5),
+  406--417 (2012)
+
+\bibitem{yuan2010efficiently}
+Yuan, Y., Chen, L., Wang, G.: Efficiently answering probability threshold-based
+  shortest path queries over uncertain graphs. In: DASFAA. pp. 155--170.
+  Springer (2010)
+
+\bibitem{yuan2013efficient}
+Yuan, Y., Wang, G., Chen, L., Wang, H.: Efficient keyword search on uncertain
+  graph data. Knowledge and Data Engineering, IEEE Transactions on  25(12),
+  2767--2779 (2013)
+
+\bibitem{yuan2011efficient}
+Yuan, Y., Wang, G., Wang, H., Chen, L.: Efficient subgraph search over large
+  uncertain graphs. In: International Conference on Very Large Data Bases
+  (2011)
+
+\bibitem{zhang2013efficient}
+Zhang, Z., Yu, J.X., Qin, L., Chang, L., Lin, X.: I/o efficient: computing sccs
+  in massive graphs. In: Proceedings of the 2013 international conference on
+  Management of data. pp. 181--192. ACM (2013)
+
+\bibitem{zou2011top}
+Zou, L., Peng, P., Zhao, D.: Top-k possible shortest path query over a large
+  uncertain graph. In: WISE, pp. 72--86. Springer (2011)
+
+\end{thebibliography}

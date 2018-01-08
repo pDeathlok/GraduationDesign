@@ -1,0 +1,46 @@
+@inproceedings{sigmod2008capacity,
+  title={Capacity constrained assignment in spatial databases},
+  author={U, Leong Hou and Yiu, Man Lung and Mouratidis, Kyriakos and Mamoulis, Nikos},
+  booktitle={SIGMOD'08}
+}
+
+@article{idistance2005,
+  title={iDistance: An adaptive B+-tree based indexing method for nearest neighbor search},
+  author={Jagadish, HV and Ooi, Beng Chin and Tan, Kian-Lee and Yu, Cui and Zhang, Rui},
+  journal={TODS'05},
+  publisher={ACM}
+}
+
+@article{tong2012mining,
+  title={Mining frequent itemsets over uncertain databases},
+  author={Tong, Yongxin and Chen, Lei and Cheng, Yurong and Yu, Philip S},
+  journal={PVLDB},
+  volume={5},
+  number={11},
+  pages={1650--1661},
+  year={2012}
+}
+
+@inproceedings{tong2012discovering,
+  title={Discovering threshold-based frequent closed itemsets over probabilistic data},
+  author={Tong, Yongxin and Chen, Lei and Ding, Bolin},
+  booktitle={ICDE},
+  pages={270--281},
+  year={2012}
+}
+
+@inproceedings{tong2012ufimt,
+  title={Ufimt: an uncertain frequent itemset mining toolbox},
+  author={Tong, Yongxin and Chen, Lei and Yu, Philip S},
+  booktitle={SIGKDD},
+  pages={1508--1511},
+  year={2012}
+}
+
+@article{tong2015tracking
+  title={Tracking frequent items over distributed probabilistic data},
+  author={Tong, Yongxin and Zhang, Xiaofei and Chen, Lei},
+  journal={World Wide Web},
+  doi={10.1007/s11280-015-0341-5},
+  pages={1-26}
+}

@@ -1,0 +1,12 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: DASFAA14_conference_301.aux
+The style file: splncs03.bst
+Database file #1: cup.bib
+Repeated entry---line 655 of file cup.bib
+ : @inproceedings{DBLP:conf/kdd/TsengWSY10
+ :                                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 691 of file cup.bib
+ : @article{DBLP:journals/pvldb/TongCCY12
+ :                                       ,
+I'm skipping whatever remains of this entry
+(There were 2 error messages)

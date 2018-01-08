@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mH:\U盘备份\毕业设计\最终\构建语料库\test\src\main\scala\com\buaa\first\getDomainsCorpus\getDomainsCorpus.scala:10:8: getDomainsCorpus has a main method with parameter type Array[String], but com.buaa.first.getDomainsCorpus.getDomainsCorpus will not be a runnable program.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Reason: main method must have exact signature (Array[String])Unit[0m
+[0m[[0m[33mwarn[0m] [0m[0mobject getDomainsCorpus{[0m
+[0m[[0m[33mwarn[0m] [0m[0m       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

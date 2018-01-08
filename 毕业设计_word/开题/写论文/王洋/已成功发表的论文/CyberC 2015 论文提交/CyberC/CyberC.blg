@@ -1,0 +1,16 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: CyberC.aux
+The style file: IEEEtran.bst
+Database file #1: utility.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty year in chui2007mining
+Warning--empty year in aggarwal2009frequent
+Warning--empty year in tong2012discovering
+Warning--empty year in bernecker2009probabilistic
+Warning--empty year in tong2012ufimt
+Warning--empty year in chan2003mining
+Warning--empty year in tseng2010up
+
+Done.
+(There were 7 warnings)

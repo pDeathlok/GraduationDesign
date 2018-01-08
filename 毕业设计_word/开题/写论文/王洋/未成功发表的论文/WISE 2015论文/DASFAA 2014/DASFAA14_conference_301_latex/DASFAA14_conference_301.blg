@@ -1,0 +1,23 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: DASFAA14_conference_301.aux
+The style file: splncs03.bst
+Database file #1: References.bib
+You're missing a field name---line 229 of file References.bib
+ : 
+ : %  url           = {http://www.cs.utah.edu/~lifeifei/SpatialDataset.htm},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 233 of file References.bib
+ : 
+ : %  url           = {http://string-db.org},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 237 of file References.bib
+ : 
+ : %  url           = {http://graphstream-project.org},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 279 of file References.bib
+ : @inproceedings{wei2010tedi
+ :                           ,
+I'm skipping whatever remains of this entry
+(There were 4 error messages)
